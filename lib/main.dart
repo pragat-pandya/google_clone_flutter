@@ -21,11 +21,11 @@ class MyApp extends StatelessWidget {
       ),
       debugShowCheckedModeBanner: false,
       title: 'Google Clone',
-      // home: const ResponsiveLayoutScreen(
-      //   mobileScreenLayout: MobileScreenLayout(),
-      //   webScreenLayout: WebScreenLayout(),
-      // ),
-      home: const SearchScreen(),
+      home: const ResponsiveLayoutScreen(
+        mobileScreenLayout: MobileScreenLayout(),
+        webScreenLayout: WebScreenLayout(),
+      ),
+      // home: const SearchScreen(),
     );
   }
 }
